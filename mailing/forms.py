@@ -16,6 +16,7 @@ class StyleFormMixin:
                 fild.widget.attrs["class"] = "form-control"
 
 
+
 class MailingForm(StyleFormMixin, ModelForm):
     class Meta:
         model = Mailing

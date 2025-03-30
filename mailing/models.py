@@ -13,6 +13,7 @@ class RecipientMailing(models.Model):
     is_active = models.BooleanField(default=True, verbose_name="активность")
     owner = models.ForeignKey(User, on_delete=models.SET_NULL, **NULLABLE, verbose_name="Владелец")
 
+
     def __str__(self):
         return f"{self.fio} <{self.email}>"
 
