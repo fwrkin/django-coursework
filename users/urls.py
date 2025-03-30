@@ -1,6 +1,7 @@
 from django.contrib.auth.views import LogoutView
 from django.urls import path
 
+
 from users.apps import UsersConfig
 from users.services import block_user, email_verification
 from users.views import (

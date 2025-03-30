@@ -8,6 +8,7 @@ from django.views.generic import CreateView, DeleteView, DetailView, ListView, T
 from mailing.forms import MailingForm, MessageForm, RecipientForm
 from mailing.models import Mailing, MailingAttempt, Message, RecipientMailing
 
+
 class IndexView(TemplateView):
     template_name = "mailing/index.html"
 

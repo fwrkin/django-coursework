@@ -14,7 +14,6 @@ class RecipientMailingAdmin(admin.ModelAdmin):
     )
 
 
-
 @admin.register(Message)
 class MessageAdmin(admin.ModelAdmin):
     list_display = (

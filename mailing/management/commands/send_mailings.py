@@ -37,4 +37,3 @@ class Command(BaseCommand):
                     )
                     print(str(e))
             mailing.save()
-

@@ -3,7 +3,6 @@ from django.urls import reverse_lazy
 
 from mailing.models import Mailing, Message, RecipientMailing
 
-
 class StyleFormMixin:
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

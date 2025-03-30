@@ -45,6 +45,7 @@ files = [
     {file = "black-24.10.0.tar.gz", hash = "sha256:846ea64c97afe3bc677b761787993be4991810ecc7a4a937816dd6bddedc4875"},
 ]
 
+
 [package.dependencies]
 click = ">=8.0.0"
 mypy-extensions = ">=0.4.3"

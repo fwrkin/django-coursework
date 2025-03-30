@@ -5,6 +5,7 @@ from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse
 from django.utils import timezone
 
+
 from config.settings import CACHE_ENABLE, EMAIL_HOST_USER
 from mailing.models import Mailing, MailingAttempt
 
